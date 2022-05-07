@@ -1,18 +1,18 @@
 body{
-	font-size: large;
+	font-size: x-large;
 	margin: 10px;
 }
 h1{
 	border: 5px outset;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	font-size: 180%;
+	font-size: 150%;
 	text-align:center;
 
 }
 h2{
 	border-bottom: 1px solid black;
-	font-size: 140%;
+	font-size: 120%;
 }
 #about{
 	border: 5px outset;
