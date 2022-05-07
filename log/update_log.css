@@ -4,7 +4,7 @@ body{
 	margin-right: 20%;
 }
 h1{
-	border-bottom: 5px solid black;
+	border-bottom: 5px solid grey;
 	background-color: #ebf5f7;
 	font-size: 200%;
 }
@@ -15,8 +15,7 @@ h2{
 p{
 	line-height: 1.5em;
 }
-.about{
-	
-	padding: 10px 5px 10px 5px;
-	 
+.kuang{
+	border-style: outset;
+	padding: 10px;
 }
