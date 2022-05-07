@@ -1,0 +1,20 @@
+body{
+	font-size: x-large;
+	margin: 10px;
+}
+h1{
+	border-bottom: 5px solid grey;
+	background-color: #ebf5f7;
+	font-size: 170%;
+}
+h2{
+	border-bottom: 1px solid black;
+	font-size: 130%;
+}
+p{
+	line-height: 1.5em;
+}
+.kuang{
+	border-style: outset;
+	padding: 10px;
+}
