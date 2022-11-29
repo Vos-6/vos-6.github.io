@@ -8,38 +8,65 @@
   </head>
     
   <body> 	
-  	<h1>广告位招租（doge）</h1>
-  	<div id="about">
-  		<img src="images/hi.gif" width="250" height="100"
-  		 	alt="图片害羞躲起来了，请稍等……"
-  		 	>
-  		<p>👋 Hi,你好！<br>
-  		👆 上面是我自己画的一个小动图，以表欢迎！<br>
-  		👉 在自学前端中，这个网站我目前打算用来记录我的摄影和绘画作品。<br>
-  		🎁 顺便试着做些有趣的小彩蛋！<br>
-  		（ps：手机端的适配暂时还不太好，请见谅）
-  		2022.05.05😃
-  		</p>
-  	</div>
-  	<div class="kuang">
-  		<h2>话唠日志</h2>
-  		<p>
-  		我还在一边学一边给网站添加内容，这个日志里基本就是我每次更新的自言自语:-)<br>
-  		<a target="_blank" href="log/update_log.html"
-  		title="不想看看我都说点啥吗？" >点击这里>>></a>
-  		</p>
-  	</div>
-  	
-  	<div class="kuang">
-  		<h2>未来展区</h2>
-  		<p>
-  		为什么叫未来展区，主要是为了和话唠日志的字数对上:D
-  		</p>
-  	</div>
-  	
-  	<div class="kuang">
-  		<h2>空地</h2>
-  		<p>这块地还在努力施工中。。。</p>
-  	</div>
+  	<header class="top">
+		<p>Liz's BLOG</p>
+	</header>
+
+
+	<nav>
+		<ul>
+			<li class="selected"><a href="index.html">HOME</a></li>
+			<li><a href="log/update_log.html">LOG</a></li>
+			<li><a href="">空地1号</a></li>
+			<li><a href="">空地2号</a></li>
+		</ul>
+	</nav>
+	
+
+	<div id="tableContainer">
+		<div id="tableRow">
+
+			<section id="about">
+				<img src="images/hi.gif" width="250" height="100"
+					alt="图片害羞躲起来了，请稍等……">
+				<p>👋 Hi,你好！<br>
+				👆 上面是我自己画的一个小动图，以表欢迎！<br>
+				👉 在自学前端中，这个网站我目前打算用来记录我的摄影和绘画作品。<br>
+				🎁 顺便试着做些有趣的小彩蛋！<br>
+				（ps：手机端的适配暂时还不太好，请见谅）
+				2022.05.05😃
+				</p>	
+			</section> <!-- About -->
+
+			<section class="space">
+				<h2>话唠日志</h2>
+				<p>
+				我还在一边学一边给网站添加内容，这个日志里基本就是我每次更新的自言自语:-)<br>
+				<a target="_blank" href="log/update_log.html"
+				title="不想看看我都说点啥吗？" >点击这里>>></a>
+				</p>
+			</section> <!-- Diary -->
+
+			<section class="space">
+					<h2>未来展区</h2>
+					<p>
+					为什么叫未来展区，主要是为了和话唠日志的字数对上:D
+					</p>
+			</section> <!-- Space -->
+			<section class="space">
+  				<h2>空地</h2>
+  				<p>这块地还在努力施工中。。。</p>
+  			</section> <!-- Space -->
+
+		</div> <!-- tableRow -->
+	</div> <!-- tableContainer -->
+
+
+	 <footer>
+      &copy; 2022, Liz's Bolg
+      <br>
+      All pictures are original.
+    </footer>
+
   </body>
 </html>
